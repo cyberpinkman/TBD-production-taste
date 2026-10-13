@@ -1,0 +1,27 @@
+# Episode work and all real media stay local.
+/episodes/
+/work/
+/output/
+*.mp4
+*.mov
+*.mkv
+*.m4a
+*.wav
+*.mp3
+*.aac
+*.flac
+*.lrf
+*.LRF
+*.zip
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.env
+.env*
+!.env.example
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "kind": "episode",
+  "title": "填写本期主题",
+  "profile": {
+    "format": "full",
+    "width": 1920,
+    "height": 1080,
+    "fps_num": 25,
+    "fps_den": 1,
+    "intro_frames": 0
+  },
+  "review": {
+    "picture": "not_started",
+    "full_listening": "not_started",
+    "publication": "not_published",
+    "authorization_evidence": null
+  },
+  "sources": [],
+  "segments": [],
+  "captions": [],
+  "editorial_notes": []
+}

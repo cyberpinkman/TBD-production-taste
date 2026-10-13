@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic",
+  "title": "虚构示例：从观察开始",
+  "profile": {
+    "format": "full",
+    "width": 1080,
+    "height": 1920,
+    "fps_num": 25,
+    "fps_den": 1,
+    "intro_frames": 50
+  },
+  "review": {
+    "picture": "not_applicable_synthetic",
+    "full_listening": "not_applicable_synthetic",
+    "publication": "not_published",
+    "authorization_evidence": null
+  },
+  "sources": [
+    {
+      "id": "reference-01",
+      "path": null,
+      "sha256": null,
+      "duration_seconds": 20,
+      "clock_origin": "synthetic decoded time zero; no media exists"
+    }
+  ],
+  "segments": [
+    {
+      "id": "keep-01",
+      "source_id": "reference-01",
+      "source_start_seconds": 2,
+      "source_end_seconds": 6,
+      "body_start_frame": 0,
+      "body_end_frame": 100
+    },
+    {
+      "id": "keep-02",
+      "source_id": "reference-01",
+      "source_start_seconds": 10,
+      "source_end_seconds": 14,
+      "body_start_frame": 100,
+      "body_end_frame": 200
+    }
+  ],
+  "captions": [
+    {
+      "id": "caption-01",
+      "segment_id": "keep-01",
+      "source_start_seconds": 2.2,
+      "source_end_seconds": 3.4,
+      "speaker_id": "host",
+      "turn_id": "turn-01",
+      "text": "你从哪里开始？"
+    },
+    {
+      "id": "caption-02",
+      "segment_id": "keep-01",
+      "source_start_seconds": 3.6,
+      "source_end_seconds": 5.6,
+      "speaker_id": "guest",
+      "turn_id": "turn-02",
+      "text": "先观察，再动手。"
+    },
+    {
+      "id": "caption-03",
+      "segment_id": "keep-02",
+      "source_start_seconds": 10.2,
+      "source_end_seconds": 10.6,
+      "speaker_id": "host",
+      "turn_id": "turn-03",
+      "text": "嗯。"
+    },
+    {
+      "id": "caption-04",
+      "segment_id": "keep-02",
+      "source_start_seconds": 10.8,
+      "source_end_seconds": 13.4,
+      "speaker_id": "guest",
+      "turn_id": "turn-04",
+      "text": "小范围试一次，就知道了。"
+    }
+  ],
+  "editorial_notes": [
+    {"caption_id": "caption-03", "note": "虚构的短应答单独成条；此字段不进入 SRT。"}
+  ]
+}
